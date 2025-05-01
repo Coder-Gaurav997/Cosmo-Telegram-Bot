@@ -16,14 +16,14 @@ from groq import Groq
 from json import load, dump
 
 # 🛠 API Token Setup
-API_TOKEN = "7874812792:AAFVXrdXoV2ctZCas5rpD5yLHWxMPjvSJR0"  # Replace with your TG Bot API key
+API_TOKEN = "YOUR_API_TOKEN"  # Replace with your TG Bot API key
 bot = telebot.TeleBot(API_TOKEN, parse_mode=None)
 
 # News API Key
-NEWS_API_KEY = 'e5f2a92b0c7a4fc2b8b25b5e7ca6511c'
+NEWS_API_KEY = 'API'
 
 # Weather API Key
-WEATHER_API_KEY = "f4d05a5edcf7984f767163b7bcb38809"
+WEATHER_API_KEY = "API"
 
 
 # 💬 Start anda5 Help Command
@@ -392,7 +392,7 @@ def tts(message):
 def llm(message):
     """Answer question using AI"""
     try:
-        GroqAPIKey = "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"
+        GroqAPIKey = "API"
         Query = message.text.split(" ", 1)[1]
 
         client = Groq(api_key=GroqAPIKey)
