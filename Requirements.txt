@@ -1,0 +1,15 @@
+telebot
+groq
+pytz
+datetime
+time
+random
+json
+requests 
+qrcode
+geopy
+deep-translator 
+googlesearch
+gtts
+threading
+os
