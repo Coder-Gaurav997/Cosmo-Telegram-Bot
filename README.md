@@ -4,4 +4,4 @@ This repository contains the complete source code of an advance AI integrated Te
 URL to Telegram :- https://t.me/Official_Cosmo_Bot
 
 URL to Website :-
-https://officialcosmo.lovable.app
+https://cosmobot.lovable.app
